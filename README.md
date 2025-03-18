@@ -1,22 +1,47 @@
-# FileRenameAppleScript
-File renaming script with numbering
+# File Renamer Script
+A simple AppleScript that renames files in a selected folder with a custom prefix and numbered suffix.
 
-This script is a simple Apple Script that will allow you to rename files in a folder with numbering. 
+## Description
+This script allows you to select a folder and rename all files within it with a custom prefix and numbered suffix. The script also allows you to specify a word to look for in file names, so you can rename only files that contain a specific word.
 
-It has three prompts. 
+## Features
 
-Prompt 1 - Asks what you want to re-name the file to.
+* Renames files in a selected folder with a custom prefix and numbered suffix
+* Allows you to specify a word to look for in file names
+* Case-sensitive search (can be made case-insensitive by modifying the script)
+* Handles potential errors (e.g., permission issues)
 
-Prompt 2 - Asks if there is a specific word you want to search of in the file names and only change those files. If left blank will change all files. 
-  Example: You have a folder that you only want to change all files with DCIM in the file name to "Holidy Photos" followed by a number. Enter "DCIM" here and ONLY those files will be modified.
+## Requirements
 
-Prompt 3 - Asks for the folder you want to look at for file name changes. 
+* AppleScript Editor (comes pre-installed on Macs)
+* macOS (tested on macOS High Sierra and later)
 
+## Installation
 
-Write this script to quickly re-name files for comics I'm working on. Can be used for any file type. 
+1. Clone this repository to your local machine using `git clone https://github.com/your-username/file-renamer-script.git`
+2. Open the `file-renamer-script.applescript` file in AppleScript Editor
+3. Save the script as an application by clicking on "File" > "Save As" and selecting "Application" as the file type
 
-Feel free to use and modifiy as you want. 
+## Usage
 
--------------------
-J Horsley III
-y2cl.net
+1. Run the script by double-clicking on the saved application file
+2. Enter a name for the files when prompted
+3. Enter a word to look for in file names when prompted
+4. Select the folder containing the files to rename when prompted
+5. The script will rename all files in the selected folder with the specified prefix and numbered suffix
+
+## Troubleshooting
+
+* If you encounter any errors, check the AppleScript Editor console for error messages
+* Make sure you have the necessary permissions to rename files in the selected folder
+
+## Contributing
+
+Pull requests are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+_____________________________________________
+###### Created by J Horsley III
+[https://y2cl.net](y2cl.net)
